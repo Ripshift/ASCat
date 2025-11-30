@@ -24,7 +24,7 @@ const manifest = {
                 { 
                     name: 'genre', 
                     isRequired: false,
-                    options: ["Adult Animation", 'Anime', 'Action', 'Comedy', 'FX', 'Sci-Fi'],
+                    options: ["Adult Animation", 'Anime', 'Action', 'Comedy', 'FX', 'Sci-Fi', 'Live'],
                     optionsLimit: 1
                 },
                 { 
@@ -44,7 +44,7 @@ const manifest = {
                 { 
                     name: 'genre', 
                     isRequired: false,
-                    options: ["Adult Animation", 'Anime', 'Action', 'Comedy', 'FX', 'Sci-Fi'],
+                    options: ["Adult Animation", 'Anime', 'Action', 'Comedy', 'FX', 'Sci-Fi', 'Live'],
                     optionsLimit: 1
                 },
                 { 
