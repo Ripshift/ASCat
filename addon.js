@@ -2,8 +2,8 @@ const { addonBuilder } = require('stremio-addon-sdk');
 
 // Addon manifest
 const manifest = {
-    id: 'com.adultswim.catalogaddon',
-    version: '1.0.0',
+    id: 'com.adultswim.catalog.addon',
+    version: '1.1.0',
     name: 'Adult Swim Catalog',
     description: 'Adult Swim movies and series catalog for Stremio',
     
