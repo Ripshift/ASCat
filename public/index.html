@@ -161,7 +161,7 @@
         </div>
 
         <div class="button-group">
-            <a href="/manifest.json" class="btn install-btn">
+            <a href="#" onclick="installAddon(); return false;" class="btn install-btn">
                 <span>📥</span> Install Addon
             </a>
             <button onclick="copyManifest()" class="btn copy-btn" id="copyBtn">
@@ -175,6 +175,11 @@
     </div>
 
     <script>
+        function installAddon() {
+            const manifestUrl = window.location.origin + '/manifest.json';
+            window.location.href = 'stremio://' + manifestUrl.replace(/^https?:\/\//, '');
+        }
+
         function copyManifest() {
             const url = window.location.origin + '/manifest.json';
             navigator.clipboard.writeText(url).then(() => {
