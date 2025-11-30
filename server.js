@@ -3,13 +3,20 @@ const addonInterface = require('./addon');
 const express = require('express');
 const path = require('path');
 
-const router = getRouter(addonInterface);
 const app = express();
 
-// Serve static files
+// Enable CORS for all routes
+app.use((req, res, next) => {
+    res.header('Access-Control-Allow-Origin', '*');
+    res.header('Access-Control-Allow-Headers', '*');
+    next();
+});
+
+// Serve static files first
 app.use(express.static(path.join(__dirname, 'public')));
 
 // Mount addon routes
+const router = getRouter(addonInterface);
 app.use(router);
 
 // For local development
