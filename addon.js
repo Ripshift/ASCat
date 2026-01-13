@@ -82,7 +82,7 @@ const manifest = {
   description: "Adult Swim movies and series catalog for Stremio",
 
   // Resources provided by this addon
-  resources: ["catalog"],
+  resources: ["catalog", "meta"],
 
   // Types of content this addon provides
   types: ["movie", "series", "tv"],
@@ -1534,12 +1534,14 @@ builder.defineCatalogHandler(({ type, id, extra }) => {
 
   if (type === "movie" && id === "adultswim-movies") {
     const filtered = filterAndSortCatalog(adultSwimMovies, extra);
-    return Promise.resolve({ metas: filtered });
+    const metas = filtered.map((m) => ({ ...m, id: `tmdb:${m.id}` }));
+    return Promise.resolve({ metas });
   }
 
   if (type === "series" && id === "adultswim-series") {
     const filtered = filterAndSortCatalog(adultSwimSeries, extra);
-    return Promise.resolve({ metas: filtered });
+    const metas = filtered.map((m) => ({ ...m, id: `tmdb:${m.id}` }));
+    return Promise.resolve({ metas });
   }
 
   if (type === "tv" && id === "adultswim-live") {
@@ -1593,6 +1595,58 @@ builder.defineCatalogHandler(({ type, id, extra }) => {
 
   // Return empty catalog if no match
   return Promise.resolve({ metas: [] });
+});
+
+// Meta handler
+builder.defineMetaHandler(({ type, id }) => {
+  console.log(`Meta request: type=${type}, id=${id}`);
+
+  // Movie meta
+  if (type === "movie") {
+    const rawId = id && id.startsWith("tmdb:") ? id.split(":")[1] : id;
+    const found = adultSwimMovies.find((m) => m.id === rawId);
+    if (!found) return Promise.resolve({ meta: null });
+    const meta = { ...found, id: `tmdb:${rawId}`, tmdb: parseInt(rawId, 10) };
+    return Promise.resolve({ meta });
+  }
+
+  // Series meta
+  if (type === "series") {
+    const rawId = id && id.startsWith("tmdb:") ? id.split(":")[1] : id;
+    const found = adultSwimSeries.find((m) => m.id === rawId);
+    if (!found) return Promise.resolve({ meta: null });
+    const meta = { ...found, id: `tmdb:${rawId}`, tmdb: parseInt(rawId, 10) };
+    return Promise.resolve({ meta });
+  }
+
+  // TV (live channel) meta - fetch M3U and find channel by id
+  if (type === "tv") {
+    const m3uUrl =
+      "https://raw.githubusercontent.com/Ripshift/IPTV/refs/heads/main/AdultSwim/AdultSwim.m3u";
+    const fetch = fetchFn;
+    if (!fetch) {
+      return Promise.resolve({ meta: null });
+    }
+    return fetch(m3uUrl)
+      .then((res) => res.text())
+      .then((m3uContent) => {
+        const channels = parseM3U(m3uContent);
+        const ch = channels.find((c) => c.id === id);
+        if (!ch) return { meta: null };
+        const meta = {
+          id: ch.id,
+          type: "tv",
+          name: ch.name,
+          poster: ch.logo || "https://static.strem.io/images/tv.png",
+          background: ch.logo || "https://static.strem.io/images/tv.png",
+          description: ch.category ? `Category: ${ch.category}` : "24/7 Adult Swim Channel",
+        };
+        return { meta };
+      })
+      .catch(() => ({ meta: null }));
+  }
+
+  return Promise.resolve({ meta: null });
 });
 
 module.exports = builder.getInterface();
