@@ -1,4 +1,4 @@
-// --- 24⁄7 Adult Swim Live Channels (M3U/EPG) ---
+// --- Adult Swim Live Channels (M3U/EPG) ---
 let xml2js;
 try {
   xml2js = require("xml2js");
@@ -148,7 +148,7 @@ const manifest = {
     {
       type: "tv",
       id: "adultswim-live",
-      name: "24⁄7 Adult Swim",
+      name: "Adult Swim Live Channels",
       extra: [
         { name: "skip", isRequired: false },
         {
@@ -1582,7 +1582,7 @@ builder.defineCatalogHandler(({ type, id, extra }) => {
           background: ch.logo || "https://static.strem.io/images/tv.png",
           description: ch.category
             ? `Category: ${ch.category}`
-            : "24⁄7 Adult Swim Channel",
+            : "Adult Swim Channel",
           // Optionally, add EPG info to description
         }));
         return { metas };
@@ -1639,7 +1639,7 @@ builder.defineMetaHandler(({ type, id }) => {
           name: ch.name,
           poster: ch.logo || "https://static.strem.io/images/tv.png",
           background: ch.logo || "https://static.strem.io/images/tv.png",
-          description: ch.category ? `Category: ${ch.category}` : "24/7 Adult Swim Channel",
+          description: ch.category ? `Category: ${ch.category}` : "Adult Swim Channel",
         };
         return { meta };
       })
