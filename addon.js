@@ -166,6 +166,25 @@ const manifest = {
 // Create addon builder
 const builder = new addonBuilder(manifest);
 
+// Load generated genres (from scripts/generate_genres.js output)
+let genreData = [];
+try {
+  genreData = require("./genres.json");
+} catch (e) {
+  genreData = [];
+}
+const genreMap = new Map();
+genreData.forEach((g) => genreMap.set(g.title.toLowerCase(), g));
+const generatedAnimeTitles = genreData
+  .filter((g) => (g.custom_genres || []).includes("Anime"))
+  .map((g) => g.title.toLowerCase());
+const generatedLiveTitles = genreData
+  .filter((g) => (g.custom_genres || []).includes("Live"))
+  .map((g) => g.title.toLowerCase());
+const generatedFxTitles = genreData
+  .filter((g) => (g.custom_genres || []).includes("FX"))
+  .map((g) => g.title.toLowerCase());
+
 // Adult Swim Movies
 const adultSwimMovies = [
   {
@@ -1408,6 +1427,20 @@ const adultSwimSeries = [
   },
 ];
 
+// Normalize standard genres from genres.json for existing metas
+function applyStandardGenres(metas) {
+  metas.forEach((m) => {
+    const entry = genreMap.get(m.name.toLowerCase());
+    if (entry && entry.standard_genres && entry.standard_genres.length) {
+      m.genre = entry.standard_genres;
+    } else {
+      m.genre = m.genre || [];
+    }
+  });
+}
+applyStandardGenres(adultSwimMovies);
+applyStandardGenres(adultSwimSeries);
+
 // Helper function to filter and sort catalog
 function filterAndSortCatalog(metas, extra) {
   let results = [...metas];
@@ -1426,22 +1459,62 @@ function filterAndSortCatalog(metas, extra) {
           return meta.genre.some((g) => g.toLowerCase().includes("animation"));
 
         case "anime":
-          // Japanese anime shows - typically have specific titles or styles
-          // Matches: Cowboy Bebop, Bleach, Inuyasha, etc.
+          // Prefer explicit 'anime' genre tag; fall back to known anime titles
+          const animeTagKeywords = ["anime", "japanese", "manga"];
+          if (meta.genre && meta.genre.some((g) => animeTagKeywords.some((k) => g.toLowerCase().includes(k)))) {
+            return true;
+          }
+
           const animeTitles = [
+            "invincible fight girl",
             "bleach",
+            "one piece",
             "cowboy bebop",
             "inuyasha",
-            "fullmetal",
+            "fullmetal alchemist",
+            "full metal alchemist: brotherhood",
             "samurai champloo",
             "trigun",
             "flcl",
             "yu yu hakusho",
+            "big o",
             "s-cry-ed",
             "afro samurai",
+            "megas xlr",
+            "akira",
+            "paprika",
+            "redline",
+            "sword of the stranger",
+            "ghost in the shell",
+            "summer wars",
+            "cowboy bebop: the movie",
           ];
+
           const titleLower = meta.name.toLowerCase();
-          return animeTitles.some((anime) => titleLower.includes(anime));
+          if (generatedAnimeTitles.some((anime) => titleLower.includes(anime))) return true;
+
+          // fallback: if genre contains 'animation' include it
+          if (meta.genre && meta.genre.some((g) => g.toLowerCase().includes("animation"))) {
+            return true;
+          }
+
+          return false;
+
+        case "live":
+          // Match live-action or 'Live' channel content using genre tags and a compact title list
+          const liveKeywords = ["live", "reality", "talk", "variety", "documentary", "music", "sports", "performance", "stand-up"];
+          if (meta.genre && meta.genre.some((g) => liveKeywords.some((k) => g.toLowerCase().includes(k)))) {
+            return true;
+          }
+
+          const titleLowerLive = meta.name.toLowerCase();
+          if (generatedLiveTitles.some((lt) => titleLowerLive.includes(lt))) return true;
+
+          // Fallback: treat as live-action if genre does not explicitly include 'animation'
+          if (meta.genre) {
+            return !meta.genre.some((g) => g.toLowerCase().includes("animation"));
+          }
+          return false;
 
         case "action":
           return meta.genre.some(
@@ -1455,14 +1528,9 @@ function filterAndSortCatalog(metas, extra) {
 
         case "fx":
           // FX/Special Effects heavy content - experimental, surreal, visually unique
-          const fxTitles = [
-            "mr. pickles",
-            "golan the insatiable",
-            "momma named me sheriff",
-          ];
           const nameLower = meta.name.toLowerCase();
           return (
-            fxTitles.some((fx) => nameLower.includes(fx)) ||
+            generatedFxTitles.some((fx) => nameLower.includes(fx)) ||
             meta.genre.some((g) => g.toLowerCase().includes("horror"))
           );
 

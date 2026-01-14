@@ -1,0 +1,1288 @@
+[
+  {
+    "title": "Aqua Teen Hunger Force Colon Movie Film for Theaters",
+    "standard_genres": [
+      "Comedy",
+      "Action",
+      "Animation",
+      "Adventure",
+      "Fantasy",
+      "Science Fiction"
+    ],
+    "custom_genres": [
+      "Adult Animation",
+      "Action",
+      "Comedy",
+      "Sci-Fi"
+    ]
+  },
+  {
+    "title": "Aqua Teen Forever: Plantasm",
+    "standard_genres": [
+      "Animation",
+      "Comedy",
+      "Science Fiction"
+    ],
+    "custom_genres": [
+      "Adult Animation",
+      "Comedy",
+      "Sci-Fi"
+    ]
+  },
+  {
+    "title": "Metalocalypse: Army of the Doomstar",
+    "standard_genres": [
+      "Animation",
+      "Comedy",
+      "Music"
+    ],
+    "custom_genres": [
+      "Action",
+      "Adult Animation",
+      "Comedy"
+    ]
+  },
+  {
+    "title": "Metalocalypse: The Doomstar Requiem",
+    "standard_genres": [
+      "Animation",
+      "Comedy",
+      "Music"
+    ],
+    "custom_genres": [
+      "Action",
+      "Adult Animation",
+      "Comedy"
+    ]
+  },
+  {
+    "title": "The Venture Bros.: Radiant Is the Blood of the Baboon Heart",
+    "standard_genres": [
+      "Animation",
+      "Action",
+      "Adventure",
+      "Science Fiction"
+    ],
+    "custom_genres": [
+      "Adult Animation",
+      "Action",
+      "Comedy",
+      "Sci-Fi"
+    ]
+  },
+  {
+    "title": "Robot Chicken: Star Wars Episode I",
+    "standard_genres": [
+      "Science Fiction",
+      "Animation",
+      "Comedy",
+      "Action",
+      "Adventure",
+      "Fantasy",
+      "TV Movie"
+    ],
+    "custom_genres": [
+      "Adult Animation",
+      "Action",
+      "Comedy",
+      "Sci-Fi"
+    ]
+  },
+  {
+    "title": "Robot Chicken: Star Wars Episode II",
+    "standard_genres": [
+      "Science Fiction",
+      "Animation",
+      "Comedy",
+      "Action",
+      "Adventure",
+      "Fantasy",
+      "TV Movie"
+    ],
+    "custom_genres": [
+      "Adult Animation",
+      "Action",
+      "Comedy",
+      "Sci-Fi"
+    ]
+  },
+  {
+    "title": "Robot Chicken: Star Wars Episode III",
+    "standard_genres": [
+      "Comedy",
+      "Science Fiction",
+      "Animation",
+      "TV Movie",
+      "Action",
+      "Adventure",
+      "Fantasy"
+    ],
+    "custom_genres": [
+      "Adult Animation",
+      "Action",
+      "Comedy",
+      "Sci-Fi"
+    ]
+  },
+  {
+    "title": "Robot Chicken: DC Comics Special",
+    "standard_genres": [
+      "Animation",
+      "Comedy",
+      "Science Fiction"
+    ],
+    "custom_genres": [
+      "Adult Animation",
+      "Action",
+      "Comedy",
+      "Sci-Fi"
+    ]
+  },
+  {
+    "title": "Robot Chicken: DC Comics Special II: Villains in Paradise",
+    "standard_genres": [
+      "Animation",
+      "Comedy",
+      "Science Fiction"
+    ],
+    "custom_genres": [
+      "Adult Animation",
+      "Action",
+      "Comedy",
+      "Sci-Fi"
+    ]
+  },
+  {
+    "title": "Robot Chicken: DC Comics Special III: Magical Friendship",
+    "standard_genres": [
+      "Animation",
+      "Comedy",
+      "Science Fiction"
+    ],
+    "custom_genres": [
+      "Adult Animation",
+      "Action",
+      "Comedy",
+      "Sci-Fi"
+    ]
+  },
+  {
+    "title": "Bleach the Movie: Memories of Nobody",
+    "standard_genres": [
+      "Fantasy",
+      "Animation",
+      "Science Fiction",
+      "Thriller"
+    ],
+    "custom_genres": [
+      "Adult Animation",
+      "Anime",
+      "Action",
+      "Sci-Fi"
+    ]
+  },
+  {
+    "title": "Bleach the Movie: The DiamondDust Rebellion",
+    "standard_genres": [
+      "Fantasy",
+      "Animation",
+      "Science Fiction",
+      "Thriller"
+    ],
+    "custom_genres": [
+      "Adult Animation",
+      "Anime",
+      "Action",
+      "Sci-Fi"
+    ]
+  },
+  {
+    "title": "Bleach the Movie: Fade to Black",
+    "standard_genres": [
+      "Fantasy",
+      "Animation",
+      "Science Fiction",
+      "Thriller"
+    ],
+    "custom_genres": [
+      "Adult Animation",
+      "Anime",
+      "Action",
+      "Sci-Fi"
+    ]
+  },
+  {
+    "title": "Bleach the Movie: Hell Verse",
+    "standard_genres": [
+      "Fantasy",
+      "Animation",
+      "Science Fiction",
+      "Thriller"
+    ],
+    "custom_genres": [
+      "Adult Animation",
+      "Anime",
+      "Action",
+      "Sci-Fi"
+    ]
+  },
+  {
+    "title": "Cowboy Bebop: The Movie",
+    "standard_genres": [
+      "Action",
+      "Animation",
+      "Science Fiction"
+    ],
+    "custom_genres": [
+      "Adult Animation",
+      "Anime",
+      "Action",
+      "Sci-Fi"
+    ]
+  },
+  {
+    "title": "Inuyasha the Movie: Affections Touching Across Time",
+    "standard_genres": [
+      "Action",
+      "Animation",
+      "Adventure",
+      "Fantasy"
+    ],
+    "custom_genres": [
+      "Adult Animation",
+      "Anime",
+      "Action"
+    ]
+  },
+  {
+    "title": "Fullmetal Alchemist: The Sacred Star of Milos",
+    "standard_genres": [
+      "Adventure",
+      "Fantasy",
+      "Animation",
+      "Action",
+      "Science Fiction"
+    ],
+    "custom_genres": [
+      "Adult Animation",
+      "Anime",
+      "Action",
+      "Sci-Fi"
+    ]
+  },
+  {
+    "title": "Ghost in the Shell: Stand Alone Complex - Solid State Society",
+    "standard_genres": [
+      "Animation",
+      "Action",
+      "Thriller",
+      "Crime",
+      "Science Fiction"
+    ],
+    "custom_genres": [
+      "Adult Animation",
+      "Anime",
+      "Action",
+      "Sci-Fi"
+    ]
+  },
+  {
+    "title": "Akira",
+    "standard_genres": [
+      "Animation",
+      "Action",
+      "Adventure",
+      "Drama",
+      "Fantasy",
+      "Science Fiction",
+      "TV Movie"
+    ],
+    "custom_genres": [
+      "Adult Animation",
+      "Anime",
+      "Action",
+      "Sci-Fi"
+    ]
+  },
+  {
+    "title": "Afro Samurai: Resurrection",
+    "standard_genres": [
+      "Animation",
+      "Action",
+      "Adventure",
+      "Drama",
+      "Fantasy",
+      "Science Fiction",
+      "TV Movie"
+    ],
+    "custom_genres": [
+      "Adult Animation",
+      "Anime",
+      "Action",
+      "Sci-Fi"
+    ]
+  },
+  {
+    "title": "Trigun: Badlands Rumble",
+    "standard_genres": [
+      "Action",
+      "Animation",
+      "Science Fiction",
+      "Adventure"
+    ],
+    "custom_genres": [
+      "Adult Animation",
+      "Anime",
+      "Action",
+      "Sci-Fi"
+    ]
+  },
+  {
+    "title": "Summer Wars",
+    "standard_genres": [
+      "Animation",
+      "Science Fiction"
+    ],
+    "custom_genres": [
+      "Adult Animation",
+      "Anime",
+      "Sci-Fi"
+    ]
+  },
+  {
+    "title": "Paprika",
+    "standard_genres": [
+      "Animation",
+      "Action",
+      "Science Fiction"
+    ],
+    "custom_genres": [
+      "Adult Animation",
+      "Anime",
+      "Action",
+      "Sci-Fi"
+    ]
+  },
+  {
+    "title": "Redline",
+    "standard_genres": [
+      "Action",
+      "Animation",
+      "History"
+    ],
+    "custom_genres": [
+      "Adult Animation",
+      "Anime",
+      "Action"
+    ]
+  },
+  {
+    "title": "Sword of the Stranger",
+    "standard_genres": [
+      "Action",
+      "Animation",
+      "History"
+    ],
+    "custom_genres": [
+      "Adult Animation",
+      "Anime",
+      "Action"
+    ]
+  },
+  {
+    "title": "Rick and Morty",
+    "standard_genres": [
+      "Animation",
+      "Comedy"
+    ],
+    "custom_genres": [
+      "Adult Animation",
+      "Comedy"
+    ]
+  },
+  {
+    "title": "Family Guy",
+    "standard_genres": [
+      "Animation",
+      "Comedy"
+    ],
+    "custom_genres": [
+      "Adult Animation",
+      "Comedy"
+    ]
+  },
+  {
+    "title": "American Dad!",
+    "standard_genres": [
+      "Animation",
+      "Comedy"
+    ],
+    "custom_genres": [
+      "Adult Animation",
+      "Comedy"
+    ]
+  },
+  {
+    "title": "Bob's Burgers",
+    "standard_genres": [
+      "Animation",
+      "Comedy"
+    ],
+    "custom_genres": [
+      "Adult Animation",
+      "Comedy"
+    ]
+  },
+  {
+    "title": "The Cleveland Show",
+    "standard_genres": [
+      "Animation",
+      "Comedy"
+    ],
+    "custom_genres": [
+      "Adult Animation",
+      "Comedy"
+    ]
+  },
+  {
+    "title": "Aqua Teen Hunger Force",
+    "standard_genres": [
+      "Comedy",
+      "Animation"
+    ],
+    "custom_genres": [
+      "Adult Animation",
+      "Comedy"
+    ]
+  },
+  {
+    "title": "Robot Chicken",
+    "standard_genres": [
+      "Comedy",
+      "Animation"
+    ],
+    "custom_genres": [
+      "Adult Animation",
+      "Comedy"
+    ]
+  },
+  {
+    "title": "The Venture Bros.",
+    "standard_genres": [
+      "Animation",
+      "Comedy"
+    ],
+    "custom_genres": [
+      "Adult Animation",
+      "Comedy"
+    ]
+  },
+  {
+    "title": "Metalocalypse",
+    "standard_genres": [
+      "Animation",
+      "Comedy"
+    ],
+    "custom_genres": [
+      "Adult Animation",
+      "Comedy"
+    ]
+  },
+  {
+    "title": "The Boondocks",
+    "standard_genres": [
+      "Action & Adventure",
+      "Comedy",
+      "Animation"
+    ],
+    "custom_genres": [
+      "Adult Animation",
+      "Comedy"
+    ]
+  },
+  {
+    "title": "Haha, You Clowns",
+    "standard_genres": [
+      "Animation",
+      "Comedy",
+      "Sci-Fi & Fantasy"
+    ],
+    "custom_genres": [
+      "Adult Animation",
+      "Comedy"
+    ]
+  },
+  {
+    "title": "Smiling Friends",
+    "standard_genres": [
+      "Animation",
+      "Comedy",
+      "Sci-Fi & Fantasy"
+    ],
+    "custom_genres": [
+      "Adult Animation",
+      "Comedy",
+      "FX",
+      "Sci-Fi"
+    ]
+  },
+  {
+    "title": "Primal",
+    "standard_genres": [
+      "Animation",
+      "Drama",
+      "Comedy",
+      "Sci-Fi & Fantasy"
+    ],
+    "custom_genres": [
+      "Adult Animation",
+      "Action",
+      "Comedy",
+      "Sci-Fi"
+    ]
+  },
+  {
+    "title": "Common Side Effects",
+    "standard_genres": [
+      "Animation",
+      "Action & Adventure",
+      "Comedy"
+    ],
+    "custom_genres": [
+      "Adult Animation",
+      "Action",
+      "Comedy",
+      "Sci-Fi"
+    ]
+  },
+  {
+    "title": "Invincible Fight Girl",
+    "standard_genres": [
+      "Animation",
+      "Sci-Fi & Fantasy",
+      "Action & Adventure"
+    ],
+    "custom_genres": [
+      "Adult Animation",
+      "Anime",
+      "Action",
+      "Sci-Fi"
+    ]
+  },
+  {
+    "title": "Rick and Morty: The Anime",
+    "standard_genres": [
+      "Animation",
+      "Action & Adventure",
+      "Drama",
+      "Sci-Fi & Fantasy"
+    ],
+    "custom_genres": [
+      "Anime",
+      "Adult Animation",
+      "Action",
+      "Sci-Fi"
+    ]
+  },
+  {
+    "title": "Afro Samurai",
+    "standard_genres": [
+      "Animation",
+      "Action & Adventure",
+      "Sci-Fi & Fantasy",
+      "Western"
+    ],
+    "custom_genres": [
+      "Adult Animation",
+      "Anime",
+      "Action",
+      "Sci-Fi"
+    ]
+  },
+  {
+    "title": "Cowboy Bebop",
+    "standard_genres": [
+      "Animation",
+      "Action & Adventure",
+      "Sci-Fi & Fantasy",
+      "Western"
+    ],
+    "custom_genres": [
+      "Anime",
+      "Action",
+      "Sci-Fi"
+    ]
+  },
+  {
+    "title": "Trigun",
+    "standard_genres": [
+      "Sci-Fi & Fantasy",
+      "Action & Adventure",
+      "Animation"
+    ],
+    "custom_genres": [
+      "Anime",
+      "Action",
+      "Sci-Fi"
+    ]
+  },
+  {
+    "title": "Big O",
+    "standard_genres": [
+      "Sci-Fi & Fantasy",
+      "Action & Adventure",
+      "Animation"
+    ],
+    "custom_genres": [
+      "Anime",
+      "Action",
+      "Sci-Fi"
+    ]
+  },
+  {
+    "title": "S-CRY-ed",
+    "standard_genres": [
+      "Animation",
+      "Action & Adventure",
+      "Sci-Fi & Fantasy"
+    ],
+    "custom_genres": [
+      "Anime",
+      "Action",
+      "Sci-Fi"
+    ]
+  },
+  {
+    "title": "Yu Yu Hakusho",
+    "standard_genres": [
+      "Animation",
+      "Sci-Fi & Fantasy",
+      "Action & Adventure",
+      "Comedy",
+      "Mystery"
+    ],
+    "custom_genres": [
+      "Anime",
+      "Action",
+      "Sci-Fi"
+    ]
+  },
+  {
+    "title": "Inuyasha",
+    "standard_genres": [
+      "Animation",
+      "Sci-Fi & Fantasy",
+      "Action & Adventure",
+      "Comedy",
+      "Mystery"
+    ],
+    "custom_genres": [
+      "Anime",
+      "Action",
+      "Sci-Fi"
+    ]
+  },
+  {
+    "title": "Bleach",
+    "standard_genres": [
+      "Action & Adventure",
+      "Animation",
+      "Sci-Fi & Fantasy"
+    ],
+    "custom_genres": [
+      "Anime",
+      "Action",
+      "Sci-Fi"
+    ]
+  },
+  {
+    "title": "One Piece",
+    "standard_genres": [
+      "Action & Adventure",
+      "Comedy",
+      "Animation"
+    ],
+    "custom_genres": [
+      "Anime",
+      "Action",
+      "Comedy"
+    ]
+  },
+  {
+    "title": "Fullmetal Alchemist",
+    "standard_genres": [
+      "Animation",
+      "Action & Adventure",
+      "Sci-Fi & Fantasy"
+    ],
+    "custom_genres": [
+      "Anime",
+      "Action",
+      "Sci-Fi"
+    ]
+  },
+  {
+    "title": "Fullmetal Alchemist: Brotherhood",
+    "standard_genres": [
+      "Animation",
+      "Action & Adventure",
+      "Sci-Fi & Fantasy"
+    ],
+    "custom_genres": [
+      "Anime",
+      "Action",
+      "Sci-Fi"
+    ]
+  },
+  {
+    "title": "Samurai Champloo",
+    "standard_genres": [
+      "Animation",
+      "Comedy",
+      "Action & Adventure",
+      "Sci-Fi & Fantasy"
+    ],
+    "custom_genres": [
+      "Anime",
+      "Action",
+      "Comedy",
+      "Sci-Fi"
+    ]
+  },
+  {
+    "title": "FLCL",
+    "standard_genres": [
+      "Animation",
+      "Comedy",
+      "Action & Adventure",
+      "Sci-Fi & Fantasy"
+    ],
+    "custom_genres": [
+      "Adult Animation",
+      "Anime",
+      "Action",
+      "Comedy",
+      "Sci-Fi"
+    ]
+  },
+  {
+    "title": "Megas XLR",
+    "standard_genres": [
+      "Animation",
+      "Action & Adventure",
+      "Comedy",
+      "Sci-Fi & Fantasy",
+      "Kids"
+    ],
+    "custom_genres": [
+      "Adult Animation",
+      "Anime",
+      "Action",
+      "Comedy",
+      "Sci-Fi"
+    ]
+  },
+  {
+    "title": "Off the Air",
+    "standard_genres": [
+      "Animation",
+      "Comedy"
+    ],
+    "custom_genres": [
+      "Comedy"
+    ]
+  },
+  {
+    "title": "Mission Hill",
+    "standard_genres": [
+      "Animation",
+      "Comedy"
+    ],
+    "custom_genres": [
+      "Adult Animation",
+      "Comedy"
+    ]
+  },
+  {
+    "title": "Home Movies",
+    "standard_genres": [
+      "Animation",
+      "Comedy",
+      "Drama"
+    ],
+    "custom_genres": [
+      "Adult Animation",
+      "Comedy"
+      
+    ]
+  },
+  {
+    "title": "Moral Orel",
+    "standard_genres": [
+      "Animation",
+      "Comedy",
+      "Drama"
+    ],
+    "custom_genres": [
+      "Adult Animation",
+      "Comedy"
+    ]
+  },
+  {
+    "title": "The Oblongs",
+    "standard_genres": [
+      "Comedy",
+      "Animation"
+    ],
+    "custom_genres": [
+      "Adult Animation",
+      "Comedy"
+    ]
+  },
+  {
+    "title": "Squidbillies",
+    "standard_genres": [
+      "Comedy",
+      "Animation"
+    ],
+    "custom_genres": [
+      "Adult Animation",
+      "Comedy"
+    ]
+  },
+  {
+    "title": "Superjail!",
+    "standard_genres": [
+      "Animation",
+      "Comedy"
+    ],
+    "custom_genres": [
+      "Adult Animation",
+      "Comedy"
+    ]
+  },
+  {
+    "title": "China, IL",
+    "standard_genres": [
+      "Animation",
+      "Comedy"
+    ],
+    "custom_genres": [
+      "Adult Animation",
+      "Comedy"
+    ]
+  },
+  {
+    "title": "Mike Tyson Mysteries",
+    "standard_genres": [
+      "Mystery",
+      "Animation",
+      "Comedy"
+    ],
+    "custom_genres": [
+      "Adult Animation",
+      "Comedy"
+    ]
+  },
+  {
+    "title": "Black Dynamite",
+    "standard_genres": [
+      "Action & Adventure",
+      "Animation",
+      "Comedy"
+    ],
+    "custom_genres": [
+      "Adult Animation",
+      "Action",
+      "Comedy"
+    ]
+  },
+  {
+    "title": "Harvey Birdman, Attorney at Law",
+    "standard_genres": [
+      "Sci-Fi & Fantasy",
+      "Animation",
+      "Comedy",
+      "Action & Adventure",
+      "Crime"
+    ],
+    "custom_genres": [
+      "Adult Animation",
+      "Action",
+      "Comedy"
+    ]
+  },
+  {
+    "title": "Sealab 2021",
+    "standard_genres": [
+      "Animation",
+      "Comedy"
+    ],
+    "custom_genres": [
+      "Adult Animation",
+      "Comedy",
+      "Sci-Fi"
+    ]
+  },
+  {
+    "title": "Space Ghost Coast to Coast",
+    "standard_genres": [
+      "Animation",
+      "Comedy"
+    ],
+    "custom_genres": [
+      "Adult Animation",
+      "Comedy"
+    ]
+  },
+  {
+    "title": "The Brak Show",
+    "standard_genres": [
+      "Animation",
+      "Comedy"
+    ],
+    "custom_genres": [
+      "Adult Animation",
+      "Comedy"
+    ]
+  },
+  {
+    "title": "Frisky Dingo",
+    "standard_genres": [
+      "Animation",
+      "Action & Adventure",
+      "Comedy"
+    ],
+    "custom_genres": [
+      "Adult Animation",
+      "Action",
+      "Comedy",
+      "Sci-Fi"
+    ]
+  },
+  {
+    "title": "Stroker and Hoop",
+    "standard_genres": [
+      "Animation",
+      "Action & Adventure",
+      "Comedy"
+    ],
+    "custom_genres": [
+      "Adult Animation",
+      "Action",
+      "Comedy"
+    ]
+  },
+  {
+    "title": "Assy McGee",
+    "standard_genres": [
+      "Animation",
+      "Comedy"
+    ],
+    "custom_genres": [
+      "Adult Animation",
+      "Comedy"
+    ]
+  },
+  {
+    "title": "12 oz. Mouse",
+    "standard_genres": [
+      "Animation",
+      "Comedy",
+      "Mystery"
+    ],
+    "custom_genres": [
+      "Adult Animation",
+      "Comedy"
+    ]
+  },
+  {
+    "title": "Perfect Hair Forever",
+    "standard_genres": [
+      "Animation",
+      "Comedy"
+    ],
+    "custom_genres": [
+      "Adult Animation",
+      "Comedy"
+    ]
+  },
+  {
+    "title": "Minoriteam",
+    "standard_genres": [
+      "Animation",
+      "Comedy",
+      "Action & Adventure"
+    ],
+    "custom_genres": [
+      "Adult Animation",
+      "Action",
+      "Comedy"
+    ]
+  },
+  {
+    "title": "Korgoth of Barbaria",
+    "standard_genres": [
+      "Action & Adventure",
+      "Animation",
+      "Comedy"
+    ],
+    "custom_genres": [
+      "Adult Animation",
+      "Action",
+      "Comedy"
+    ]
+  },
+  {
+    "title": "Tigtone",
+    "standard_genres": [
+      "Comedy",
+      "Animation"
+    ],
+    "custom_genres": [
+      "Adult Animation",
+      "Action",
+      "Comedy"
+    ]
+  },
+  {
+    "title": "Mr. Pickles",
+    "standard_genres": [
+      "Comedy",
+      "Animation"
+    ],
+    "custom_genres": [
+      "Adult Animation",
+      "Comedy",
+      "FX"
+    ]
+  },
+  {
+    "title": "Golan the Insatiable",
+    "standard_genres": [
+      "Comedy",
+      "Animation"
+    ],
+    "custom_genres": [
+      "Adult Animation",
+      "Comedy",
+      "FX"
+    ]
+  },
+  {
+    "title": "Momma Named Me Sheriff",
+    "standard_genres": [
+      "Comedy",
+      "Animation"
+    ],
+    "custom_genres": [
+      "Adult Animation",
+      "Comedy",
+      "FX"
+    ]
+  },
+  {
+    "title": "The Eric Andre Show",
+    "standard_genres": [
+      "Comedy"
+    ],
+    "custom_genres": [
+      "Comedy",
+      "Live"
+    ]
+  },
+  {
+    "title": "Saul of the Mole Men",
+    "standard_genres": [
+      "Comedy"
+    ],
+    "custom_genres": [
+      "Comedy",
+      "Live"
+    ]
+  },
+  {
+    "title": "Your Pretty Face Is Going to Hell",
+    "standard_genres": [
+      "Comedy"
+    ],
+    "custom_genres": [
+      "Comedy",
+      "Live"
+    ]
+  },
+  {
+    "title": "Delocated",
+    "standard_genres": [
+      "Comedy",
+      "Animation"
+    ],
+    "custom_genres": [
+      "Comedy",
+      "Live"
+    ]
+  },
+  {
+    "title": "The Shivering Truth",
+    "standard_genres": [
+      "Comedy",
+      "Animation"
+    ],
+    "custom_genres": [
+      "Adult Animation",
+      "Comedy",
+      "Sci-Fi"
+    ]
+  },
+  {
+    "title": "Dream Corp LLC",
+    "standard_genres": [
+      "Animation",
+      "Comedy"
+    ],
+    "custom_genres": [
+      "Comedy",
+      "Live",
+      "Sci-Fi"
+    ]
+  },
+  {
+    "title": "Lazor Wulf",
+    "standard_genres": [
+      "Comedy",
+      "Action & Adventure"
+    ],
+    "custom_genres": [
+      "Action",
+      "Comedy",
+      "Live"
+    ]
+  },
+  {
+    "title": "NTSF:SD:SUV::",
+    "standard_genres": [
+      "Comedy",
+      "Action & Adventure",
+      "Crime"
+    ],
+    "custom_genres": [
+      "Action",
+      "Comedy",
+      "Live"
+    ]
+  },
+  {
+    "title": "Eagleheart",
+    "standard_genres": [
+      "Animation",
+      "Comedy"
+    ],
+    "custom_genres": [
+      "Adult Animation",
+      "Comedy",
+      "Live"
+    ]
+  },
+  {
+    "title": "Ballmastrz: 9009",
+    "standard_genres": [
+      "Sci-Fi & Fantasy",
+      "Animation",
+      "Comedy"
+    ],
+    "custom_genres": [
+      "Adult Animation",
+      "Comedy",
+      "Sci-Fi"
+    ]
+  },
+  {
+    "title": "King Star King",
+    "standard_genres": [
+      "Sci-Fi & Fantasy",
+      "Animation",
+      "Comedy"
+    ],
+    "custom_genres": [
+      "Adult Animation",
+      "Comedy",
+      "Sci-Fi"
+    ]
+  },
+  {
+    "title": "Hot Streets",
+    "standard_genres": [
+      "Animation",
+      "Comedy",
+      "Sci-Fi & Fantasy"
+    ],
+    "custom_genres": [
+      "Adult Animation",
+      "Comedy",
+      "Sci-Fi"
+    ]
+  },
+  {
+    "title": "Gemusetto Machu Picchu",
+    "standard_genres": [],
+    "custom_genres": []
+  },
+  {
+    "title": "Titan Maximum",
+    "standard_genres": [
+      "Action & Adventure",
+      "Animation",
+      "Comedy",
+      "Sci-Fi & Fantasy"
+    ],
+    "custom_genres": [
+      "Adult Animation",
+      "Action",
+      "Comedy",
+      "Sci-Fi"
+    ]
+  },
+  {
+    "title": "Mary Shelley's Frankenhole",
+    "standard_genres": [
+      "Comedy",
+      "Animation"
+    ],
+    "custom_genres": [
+      "Adult Animation",
+      "Comedy",
+      "Sci-Fi"
+    ]
+  },
+  {
+    "title": "Baby Blues",
+    "standard_genres": [
+      "Comedy",
+      "Animation"
+    ],
+    "custom_genres": [
+      "Adult Animation",
+      "Comedy"
+    ]
+  },
+  {
+    "title": "Tuca & Bertie",
+    "standard_genres": [
+      "Animation"
+    ],
+    "custom_genres": [
+      "Adult Animation"
+    ]
+  },
+  {
+    "title": "The Ripping Friends",
+    "standard_genres": [
+      "Animation"
+    ],
+    "custom_genres": [
+      "Adult Animation",
+      "FX",
+      "Action"
+    ]
+  }
+]
