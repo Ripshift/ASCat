@@ -432,18 +432,6 @@ const adultSwimMovies = [
       "A secret military project endangers Neo-Tokyo when it turns a biker gang member into a rampaging psychic psychopath that only two teenagers and a group of psychics can stop.",
   },
   {
-    id: "19544",
-    type: "series",
-    name: "Afro Samurai",
-    poster: "https://image.tmdb.org/t/p/w500/1wif9a57obZA5N1UujiluoUahkI.jpg",
-    background:
-      "https://image.tmdb.org/t/p/w500/4MgI4sp5hLdz4ZZ9OieYjHk7y5N.jpg",
-    genre: ["Animation", "Action & Adventure", "Drama", "Sci-Fi & Fantasy"],
-    releaseInfo: "2007-01-04",
-    description:
-      "In a futuristic Japan where conflicts are settled by the sword, Afro Samurai must avenge his father's murder by challenging a powerful warrior.",
-  },
-  {
     id: "14711",
     type: "movie",
     name: "Afro Samurai: Resurrection",
@@ -717,6 +705,18 @@ const adultSwimSeries = [
     releaseInfo: "2024-08-16",
     description:
       "It's life mostly as usual for the Smith family. Rick is in a pseudo-world, Summer helps Space Beth and Morty's in love. And they're all an anime.",
+  },
+  {
+    id: "19544",
+    type: "series",
+    name: "Afro Samurai",
+    poster: "https://image.tmdb.org/t/p/w500/1wif9a57obZA5N1UujiluoUahkI.jpg",
+    background:
+      "https://image.tmdb.org/t/p/w500/4MgI4sp5hLdz4ZZ9OieYjHk7y5N.jpg",
+    genre: ["Animation", "Action & Adventure", "Drama", "Sci-Fi & Fantasy"],
+    releaseInfo: "2007-01-04",
+    description:
+      "In a futuristic Japan where conflicts are settled by the sword, Afro Samurai must avenge his father's murder by challenging a powerful warrior.",
   },
   {
     id: "30991",
@@ -1456,15 +1456,9 @@ function filterAndSortCatalog(metas, extra) {
         case "fx":
           // FX/Special Effects heavy content - experimental, surreal, visually unique
           const fxTitles = [
-            "paprika",
-            "akira",
-            "redline",
-            "flcl",
-            "superjail",
             "mr. pickles",
-            "shivering truth",
-            "xavier",
-            "perfect hair forever",
+            "golan the insatiable",
+            "momma named me sheriff",
           ];
           const nameLower = meta.name.toLowerCase();
           return (
