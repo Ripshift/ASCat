@@ -80,6 +80,7 @@ const manifest = {
   version: "1.1.0",
   name: "Adult Swim Catalog",
   description: "Adult Swim movies and series catalog for Stremio",
+  logo: "http://localhost:7000/logo.png",
 
   // Resources provided by this addon
   resources: ["catalog", "meta"],
